@@ -13,8 +13,6 @@ BHG.py is a Python script designed for comparative genomic analysis, specificall
 ## Requirements
 BHG.py requires Python 3.x and BioPython, along with few other Python libraries including NumPy, Seaborn, and Matplotlib for data manipulation and visualization. The script also requires the NCBI BLAST+ command line tools for sequence alignment.
 
-- **BioPython**: Essential for parsing biological data and interfacing with NCBI tools. [Install BioPython](https://biopython.org/wiki/Download)
-
 Other dependencies (NumPy, Seaborn, Matplotlib) and NCBI BLAST+ will need to be installed, but are commonly included in scientific Python distributions or easily installable via pip.
 
 ## Installation
