@@ -31,27 +31,22 @@ conda install -c conda-forge biopython
 
 The `BHG.py` script operates with the following inputs:
 
-1. **Reference Genome File (FASTA format)**: The user is prompted to enter the path to a reference genome file. This file should be in FASTA format and serves as the base for comparison against query sequences.
+1. **Reference Genome File (FASTA format)**: Path to a reference genomic region/plasmid file in Fasta format.
 
-2. **Query Genome Files (FASTA format)**: The user is also asked to specify the path to a folder containing query genome files in FASTA format. These genomes are compared to the reference genome to assess similarity.
+2. **Query Genome Files (FASTA format)**: Path to a folder containing query genome files in FASTA format.
 
-3. **Bin Size**: Through a prompt, the user defines the bin size, which dictates how the reference genome is segmented for comparison purposes. This size affects the resolution of the heatmap visualization.
+3. **Bin Size**: Defines the bin size.
 
-4. **Y-axis Bin Height (1-10)**: This input allows the user to control the height of each bin on the Y-axis of the heatmap, affecting the visual representation of the data.
+4. **Y-axis Bin Height (1-10)**: Height of bins on the Y-axis of the heatmap.
 
-5. **Color Scheme for Heatmap**: The user selects a color scheme for the heatmap visualization, impacting the aesthetic and readability of the output.
+5. **Color Scheme for Heatmap**: Color scheme for the heatmap.
 
 ### Output
 
-The script generates a heatmap visualization, providing a comparative analysis of the query genomes against the reference. Specifically, the outputs include:
-
 1. **Heatmap Image**: A heatmap is saved in both JPG and SVG formats in the specified output directory. This image visually represents the similarity of the query genomes to the reference genome, segmented according to the specified bin size.
 
-2. **Terminal Output**: Throughout its execution, the script prints status messages to the terminal, including notifications of the BLAST process for each query genome and any critical errors or warnings encountered.
 
-### Example Command
-
-To run the script, navigate to its directory and execute it via the command line, following the interactive prompts to input the required paths and parameters:
+### Run with
 
 ```bash
 python BHG.py
