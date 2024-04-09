@@ -6,7 +6,7 @@ The repository include helper scripts used in the Manuscript "Tracing the footpr
 BHG.py is a Python script designed for comparative genomic analysis, specifically to visualize the similarity and distribution of plasmid sequences or genomic regions of interest within bacterial genomes.
 
 ## Main Features
-- **BLASTn for alignment**: Enables the identification and comparison of specific genomic regions.
+- **BLASTn for alignment**: Enables the identification and comparison of genomic regions of interest.
 - **Heatmap Visualization**: Generates heatmap for enhanced visualization and analysis of compared genomic regions.
 - **Customizable Visualization**: Offers adjustable parameters such as bin size and color scheme to suit various datasets and preferences.
 
