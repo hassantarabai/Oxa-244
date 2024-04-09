@@ -50,3 +50,7 @@ The `BHG.py` script operates with the following inputs:
 
 ```bash
 python BHG.py
+
+# BHG_ordered.py
+
+`BHG_ordered.py` add a functionality to the `BHG.py` scriptby providing the ability to order genomes on the heatmap according to a user-provided list.
