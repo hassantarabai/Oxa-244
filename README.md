@@ -3,7 +3,7 @@ The repository include helper scripts used in the Manuscript "Tracing the footpr
 
 # BHG.py - Bacterial Genome Heatmap Generator
 
-BHG.py is a Python script designed for comparative genomic analysis, specifically to visualize the similarity and distribution of plasmid sequences within bacterial genomes. It utilizes **BLASTn** for sequence alignment and employs heatmaps for sequence alignment and employs heatmaps for intuitive visualization of genomic identity percentages across multiple genomes within set bins representing distinct segments of the reference genome.
+BHG.py is a Python script designed for comparative genomic analysis, specifically to visualize the similarity and distribution of plasmid sequences within bacterial genomes. It utilizes **BLASTn** for sequence alignment and employs heatmaps for sequence alignment and  visualization of genomic identity percentages across multiple genomes within set bins representing distinct segments of the reference genome.
 
 ## Key Features
 - **BLASTn Integration**: Leverages BLASTn for alignment, enabling the identification and comparison of specific genomic regions.
