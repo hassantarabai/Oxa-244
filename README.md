@@ -43,7 +43,7 @@ The `BHG.py` script operates with the following inputs:
 
 ### Output
 
-1. **Heatmap Image**: A heatmap is saved in both JPG and SVG formats in the specified output directory. This image visually represents the similarity of the query genomes to the reference genome, segmented according to the specified bin size.
+**Heatmap Image**: A heatmap is saved in both JPG and SVG formats in the specified output directory. This image visually represents the similarity of the query genomes to the reference genome, segmented according to the specified bin size.
 
 
 ### Run with
