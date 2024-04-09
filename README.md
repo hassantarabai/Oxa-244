@@ -33,7 +33,7 @@ The `BHG.py` script operates with the following inputs:
 
 1. **Reference Genome File (FASTA format)**: Path to a reference genomic region/plasmid file in Fasta format.
 
-2. **Query Genome Files (FASTA format)**: Path to a folder containing query genome files in FASTA format.
+2. **Query Genome Files (FASTA format)**: Path to a folder containing query genome files in Fasta format.
 
 3. **Bin Size**: Defines the bin size.
 
