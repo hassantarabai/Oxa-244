@@ -31,9 +31,9 @@ conda install -c conda-forge biopython
 
 The `BHG.py` script operates with the following inputs:
 
-1. **Reference Genome File (FASTA format)**: Path to a reference genomic region/plasmid file in Fasta format.
+1. **Reference Genome File (FASTA format)**: Path to a reference genomic region/plasmid.
 
-2. **Query Genome Files (FASTA format)**: Path to a folder containing query genome files in Fasta format.
+2. **Query Genome Files (FASTA format)**: Path to a folder containing query genome files.
 
 3. **Bin Size**: Defines the bin size.
 
