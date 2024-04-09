@@ -20,14 +20,12 @@ Other dependencies (NumPy, Seaborn, Matplotlib) and NCBI BLAST+ will need to be 
 ## Installation
 Ensure Python 3 is installed on your system. BioPython can be installed using either pip or Conda, depending on your preference and environment.
 
-### Using pip
-
-To install BioPython using pip, run the following command in your terminal or command prompt:
+Install BioPython using pip:
 
 ```bash
 pip install biopython
 
-### Using conda
+or with conda
 
 ```bash
 conda install -c conda-forge biopython
