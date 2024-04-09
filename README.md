@@ -3,17 +3,17 @@ The repository include helper scripts used in the Manuscript "Tracing the footpr
 
 # BHG.py - Bacterial Genome Heatmap Generator
 
-BHG.py is a Python script designed for comparative genomic analysis, specifically to visualize the similarity and distribution of plasmid sequences within bacterial genomes. It utilizes **BLASTn** for sequence alignment and generate a heatmap for sequence visualization based on genomic identity across multiple genomes within set bins representing distinct segments of the reference genome.
+BHG.py is a Python script designed for comparative genomic analysis, specifically to visualize the similarity and distribution of plasmid sequences or genomic regions of interest within bacterial genomes.
 
-## Key Features
-- **BLASTn Integration**: Leverages BLASTn for alignment, enabling the identification and comparison of specific genomic regions.
-- **Heatmap Visualization**: Utilizes heatmaps to provide a clear, visual representation of sequence similarity, enhancing comparative genomic analysis.
+## Main Features
+- **BLASTn for alignment**: Enables the identification and comparison of specific genomic regions.
+- **Heatmap Visualization**: Generates heatmap for enhanced visualization and analysis of compared genomic regions.
 - **Customizable Visualization**: Offers adjustable parameters such as bin size and color scheme to suit various datasets and preferences.
 
 ## Requirements
 BHG.py requires Python 3.x and BioPython, along with few other Python libraries including NumPy, Seaborn, and Matplotlib for data manipulation and visualization. The script also requires the NCBI BLAST+ command line tools for sequence alignment.
 
-Other dependencies (NumPy, Seaborn, Matplotlib) and NCBI BLAST+ will need to be installed, but are commonly included in scientific Python distributions or easily installable via pip.
+Other dependencies include (NumPy, Seaborn, Matplotlib) and NCBI BLAST+ will need to be installed, but are commonly included in scientific Python distributions or easily installable via pip.
 
 ## Installation
 Ensure Python 3 is installed on your system. BioPython can be installed using either pip or Conda:
