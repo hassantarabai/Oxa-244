@@ -25,8 +25,5 @@ Install BioPython using pip:
 ```bash
 pip install biopython
 
-or with conda
-
-```bash
+Or, using conda:
 conda install -c conda-forge biopython
-
