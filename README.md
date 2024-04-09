@@ -23,7 +23,7 @@ Install BioPython using pip:
 pip install biopython
 ```
 
-Or using conda:
+Or with conda:
 ```
 conda install -c conda-forge biopython
 ```
